@@ -33,10 +33,13 @@ read -p "folder > " isi
 echo "Jika folder belum ada Enter aja gak papa"
 sleep 2
 read -p "folder di SDCARD > " isii
-mv -f $isi /sdcard/$isiia
+mv -f $isi /sdcard/$isii
+
 sleep 2
-echo "COBA LIAT DI SDCARD ?"
+echo "COBA LIAT DI SDCARD APA SUDAH ADA?"
 sleep 2
+cd /sdcard
+ls
 elif ["$siu" = "3" ]
 then
 exit
