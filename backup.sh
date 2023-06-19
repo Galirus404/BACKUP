@@ -1,6 +1,6 @@
 #date/bin/bash
-while [ "$else" = "y" ]
-do
+
+
 clear
 echo " Mau CUT File dari ?"
 echo " 1.SDCARD KE TERMUX" 
@@ -59,7 +59,7 @@ else
 clear
 echo "Input salah cog ! ULANG ULANG "
 sleep 3
-read -p "MAU MENGULANG y/n > " apa
+
 fi
 read 
-done
+
